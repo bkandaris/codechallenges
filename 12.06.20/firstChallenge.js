@@ -11,7 +11,7 @@ function solve(arr) {
     let sorted = arr.sort(function (a, b) {  return a - b;  });
     
     while (sorted.length > 0) {
-        answer.push(sorted[sorted.length - 1])
+        answer.push(sorted[sorted.length - 1])/
         answer.push(sorted[0])
         
         sorted.shift()
